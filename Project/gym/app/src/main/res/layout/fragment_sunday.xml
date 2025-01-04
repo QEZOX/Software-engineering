@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" کششی و قدرتی"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پلانک جک بورپی: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اسنپ جامپ و شنا به طرفین: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بورپی و پرش جفت زانو بلند: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="جامپ مورب در حالت شنا و لمس دستان تناوبی: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پرش از روی زانو و اسکوات: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+</LinearLayout>

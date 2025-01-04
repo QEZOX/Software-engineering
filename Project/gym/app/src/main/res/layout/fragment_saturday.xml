@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" حرکات وزنه‌برداری"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هنگ اسنچ: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پرس فشاری با هالتر یا دمبل: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ددلیفت رومانیایی یا RDL دست‌ باز: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اسکات از جلو: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پول آپ: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- زمانی که دکمه فشرده شده است -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">  <!-- تعریف شکل مستطیلی برای دکمه -->
+            <solid android:color="#70e000"/> <!-- رنگ سبز زمانی که دکمه فشرده می‌شود -->
+            <corners android:radius="8dp"/> <!-- انحنا در گوشه‌ها برای دکمه -->
+        </shape>
+    </item>
+
+    <!-- وضعیت پیش‌فرض زمانی که دکمه فشرده نشده است -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">  <!-- تعریف شکل مستطیلی برای دکمه -->
+            <solid android:color="#FFFFFF"/> <!-- رنگ سفید برای حالت پیش‌فرض دکمه -->
+            <corners android:radius="8dp"/> <!-- انحنا در گوشه‌ها برای دکمه -->
+        </shape>
+    </item>
+</selector>

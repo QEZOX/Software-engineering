@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_main"
+    android:padding="16dp">
+
+    <!-- ردیف دکمه ها -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/sundayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="یک‌شنبه"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/saturdayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="شنبه"
+            android:textSize="18sp"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+    <!-- ردیف دکمه ها -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"> <!-- فاصله بین ردیف‌های LinearLayout -->
+
+        <Button
+            android:id="@+id/tuesdayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="سه‌شنبه"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/mondayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="دوشنبه"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+    <!-- ردیف دکمه ها -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"> <!-- فاصله بین ردیف‌های LinearLayout -->
+
+        <Button
+            android:id="@+id/thursdayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="پنج‌شنبه"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/wednesdayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="چهارشنبه"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+    <!-- ردیف دکمه ها -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fridayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="جمعه"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+
+
+    <!-- Spinner برای نمایش تمرینات روز شنبه -->
+
+    <!-- فریم برای نمایش محتوا -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="465dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/back_fragment"
+        />
+
+</LinearLayout>

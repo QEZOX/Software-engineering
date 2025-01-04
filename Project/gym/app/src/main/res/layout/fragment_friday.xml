@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پا و زیر بغل"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="زیربغل دمبل: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حرکت اسکوات با وزنه‌های دستی: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پول اور دمبل: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="زیر بغل نشسته با باند ورزشی: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="زیر بغل دمبل متناوب: 3 ست، 10-12 تکرار"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+</LinearLayout>

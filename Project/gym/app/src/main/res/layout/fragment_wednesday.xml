@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="استراحت"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="در این روز استراحت کنید و از تمرینات پرهیز کنید. به اعضای بدنتان استراحت دهید تا بتوانید در روز‌های بعدی با قدرت بیشتر و بهترین عملکرد ممکن تمرین کنید."
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+</LinearLayout>
